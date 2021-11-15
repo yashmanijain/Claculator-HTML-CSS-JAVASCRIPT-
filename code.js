@@ -1,4 +1,4 @@
-function cals(buttonValue) 
+cals= (buttonValue) => 
         {
         if (buttonValue == 'C') 
         {
@@ -19,9 +19,9 @@ function cals(buttonValue)
            }
           }
          }
-          function cal(equation)  
+         cal= (equation) =>  
            
           {
-          var answer = eval(equation);
+          let answer = eval(equation);
         document.getElementById('valueshow').value = answer;
          }
